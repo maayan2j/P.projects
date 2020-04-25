@@ -1,0 +1,51 @@
+h1{
+
+    color: #34495e;
+}
+.view{
+
+    grid-template-columns:33% 33% 33%;
+    grid-template-rows: 25% 25% 25% 25%;
+    display: grid;
+    column-gap: 15px;
+    row-gap: 10px;
+    align-items: center;
+    grid-template-areas: 
+     "h h h "
+     "h h h "
+     "h h h ";
+}
+
+
+
+.results{
+  
+
+  border-radius: 2%;
+  display: grid;
+  height:150px ;
+  background-color: #95a5a6;
+  grid-area:"h";
+  grid-template-areas:"r" 
+                      "a";
+  /* grid-template-rows: 1fr 1fr;     */                
+}
+
+.result{
+    justify-self: left;
+    grid-area: "r";
+    align-self: flex-end;
+    margin-left: 5px;
+    font-size: large;
+}
+
+a{
+margin-left: 5px;
+align-self: flex-start;
+justify-self: left;
+grid-area:"a";
+color: #34495e;
+text-decoration:  underline;
+font-size: large;
+font-weight: bold;
+}

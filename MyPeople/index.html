@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<h1>My people</h1>
+<div class="view"></div>
+<script id="store-template" type="text/x-handlebars-template">
+{{#each data}}
+<div class="results">
+<label  class="result" id={{id.name}}>{{name.first}} {{name.last}}</label>
+<a >{{email}}</a>
+</div>
+{{/each }}
+</script>
+<body>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
