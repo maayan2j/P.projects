@@ -1,0 +1,98 @@
+.container{
+    height: 50vw;
+  
+    grid-template-rows: 0.2fr 3fr  0.4fr;
+    display: grid;
+    grid-template-areas:
+     't t t'
+     'm m m'
+     'l c r';
+    
+     
+}
+
+.top{
+    
+    grid-area: t ;
+    background-color:rgba(38, 222, 129,1.0);
+    border-color: rgba(32, 191, 107,1.0);
+}
+.meadle{
+  
+    grid-area: m;
+    background-color:rgba(32, 191, 107,1.0);
+    border-color: rgba(32, 191, 107,1.0);
+   
+}
+
+
+.left{
+     
+    grid-area: l ;
+    background-color:rgba(38, 222, 129,1.0);
+    border-color: rgba(32, 191, 107,1.0);
+    
+}
+.center{
+    border-color:rgba(75, 101, 132,1.0) ;
+    grid-area: c ;
+    background-color:rgba(56, 103, 214,1.0);
+    border-width: 5px;
+    cursor: pointer;
+}
+.right{
+    border-color: rgba(32, 191, 107,1.0);
+    grid-area: r ;
+    background-color:rgba(38, 222, 129,1.0)
+}
+.Frogsleft{
+ position: relative;
+ display: block;
+ left: 40%;
+ font-family: 'Permanent Marker', cursive;
+}
+.start{
+    position: relative;
+    display: block;
+    left: 45%;
+    font-family: 'Permanent Marker', cursive;
+    
+}
+
+
+.level{
+    position: relative;
+    display: block;
+    left: 50%;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#top{
+    position: relative;
+    display: inline;
+    left: 48%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+#m{
+    position: relative;
+    display: inline-block;
+    top: 35%;
+    left: 43%;
+    font-family: 'Permanent Marker', cursive;
+    color: rgba(214, 48, 49,1.0);
+
+}
+/* .fas fa-frog{
+
+    height: 100px;
+    width: 50px;
+}
+ */
+ i{
+   font-size: 100px;
+  
+ }
