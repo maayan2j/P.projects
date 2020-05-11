@@ -1,0 +1,48 @@
+
+ .result{
+     grid-area: "m";
+    /* width: 100vw;
+    height: 100vw; */
+    display: grid;
+    grid-template-areas: 
+                         "b b b "
+                         "b b b "
+                         "b b b "
+                         "b b b "
+    ;
+    gap: 10px;
+}  
+
+img{
+     height:100px;
+     width: 140px;
+
+}
+
+
+.box{
+    grid-area: "b";
+    width: 25%;
+}
+ .input{
+   
+     width: 70%;
+   
+ }
+ .button{
+     width: 10%;
+ }
+/* .input{
+
+width: 85vw;
+
+}
+ .button{
+    width: 10vw;
+}  */
+/* .container{
+
+    width: 100vw;
+}
+ */
+
